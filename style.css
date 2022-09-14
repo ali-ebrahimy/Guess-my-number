@@ -103,7 +103,7 @@ h1 {
   padding: 1.5rem 3rem;
   cursor: pointer;
 }
-@media screen and (max-width: 286px) {
+@media screen and (max-width: 456px) {
   header {
     height: 35vh;
     border-bottom: 3px solid #ccc;
