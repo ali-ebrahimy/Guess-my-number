@@ -103,6 +103,67 @@ h1 {
   padding: 1.5rem 3rem;
   cursor: pointer;
 }
+@media screen and (max-width: 286px) {
+  header {
+    height: 35vh;
+    border-bottom: 3px solid #ccc;
+  }
+
+  main {
+    height: 60vh;
+  }
+
+  .left {
+    width: 50rem;
+  }
+
+  .right {
+    width: 50rem;
+    line-height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  /* ELEMENTS STYLE */
+
+  h1 {
+    font-size: 1.2rem;
+    width: 100%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .number {
+    font-size: 3rem;
+    left: 50%;
+    padding: 3rem 0rem;
+    width: 7rem;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+  }
+
+  .between {
+    font-size: 0.8rem;
+    right: 2rem;
+    top: 2.4rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+  }
+  .again {
+    left: 1.5rem;
+    top: 2rem;
+  }
+
+  .guess {
+    border: 2px solid #eee;
+    padding: 1rem 0.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
 
 .message {
   margin-bottom: 8rem;
