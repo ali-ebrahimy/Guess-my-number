@@ -17,12 +17,11 @@ document.querySelector('.check').addEventListener('click', function () {
     // when player win
   } else if (guess === secretNumber) {
     // document.querySelector('.message').textContent = '🎉 Correct Number!';
-    displayMessage(` ishala bad az ${secretNumber} years rel mizani ❤️🧑‍🤝‍🧑`);
+    displayMessage(` after ${secretNumber} years rel mizani ❤️🧑‍🤝‍🧑`);
     document.querySelector('body').style.backgroundColor = '#60b347';
-    document.querySelector(
-      '.number'
-    ).textContent = `after ${secretNumber} years 🫡`;
+    document.querySelector('.number').textContent = `${secretNumber}`;
     document.querySelector('.number').style.width = '30rem';
+    document.querySelector('.number').style.fontSize = '4rem';
     if (highscore < score) {
       highscore = score;
       document.querySelector('.highscore').textContent = highscore;
